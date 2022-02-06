@@ -21,23 +21,6 @@ router.post("/notes", (req,res)=>{
 res.json(db)
 
 
-})
-router.delete("/notes/:id", (req,res)=>{
-    const notesToKeep=[]
-    for(var i=0; i < db.length; i++){
-        if(db[i].id!=req.params.id){
-            notesToKeep.push(db[i])
-        }
-    }
-    db=notesToKeep
-    fs.writeFileSync("./db/db.json", JSON.stringify(db), (err)=>{
-        if (err) throw err
-    })
-res.json(db)
-
-
-})
-
 
 
 module.exports=router
