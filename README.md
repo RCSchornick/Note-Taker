@@ -1,6 +1,7 @@
 # Note-Taker
   "not licensed"
   
+  Link to deployed application via Heroku : https://sleepy-gorge-94930.herokuapp.com/
   
     * [Installation](#installation)
     * [Usage](#usage)
