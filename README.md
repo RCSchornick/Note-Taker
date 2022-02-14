@@ -13,6 +13,8 @@
   ## Description
   In this project I was asked to build the back end of a note taker application. I was asked to connect the completed front end to the completed back end and then deploy the application on Heroku.
   
+  ![image](https://user-images.githubusercontent.com/94027300/153811209-67234d83-8bab-448c-9524-566a64f415e3.png)
+  
   ## Installation
   npm install
   
@@ -37,4 +39,4 @@
   Click here to view my repo library http://github.com/RCSchornick.
   
 
-![image](https://user-images.githubusercontent.com/94027300/153811209-67234d83-8bab-448c-9524-566a64f415e3.png)
+
